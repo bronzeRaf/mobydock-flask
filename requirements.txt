@@ -1,0 +1,20 @@
+# Hello. This is Nick from the future (June 2022 to be exact). Over time a
+# bunch of Flask related libraries were updated and became incompatible with
+# certain versions that we were using for a few dependent libraries.
+#
+# I've went ahead and updated the Flask related libraries below. This means
+# this file no longer matches the video exactly, but it's all the same tools
+# and libraries. They're just more up to date and version locked now!
+
+Flask==2.1.2
+werkzeug==2.1.2
+gunicorn==20.0.4
+
+jinja2==3.1.2
+itsdangerous==2.1.2
+markupsafe==2.1.1
+
+sqlalchemy==1.4.37
+Flask-SQLAlchemy==2.5.1
+psycopg2==2.9.3
+flask-redis==0.4.0
